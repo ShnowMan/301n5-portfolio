@@ -1,0 +1,36 @@
+img {
+  max-width: 100%;
+}
+
+body{
+  color: white;
+  font-size: 100%;
+  background-image: url("../img/under_water.png");
+}
+
+article {
+  border-bottom: 1px solid white;
+}
+
+/*Text*/
+
+p {
+  font-size: 1em;
+  color: blue;
+}
+
+/*links*/
+
+a, a:link, a:active {
+  text-decoration:underline;
+  color: #777;
+}
+
+a:hover, a:focus {
+  color: white;
+}
+
+a:visited {
+  text-decoration:underline;
+  color: #00bcd4;
+}

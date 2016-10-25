@@ -3,11 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title>Jeff's Portfolio</title>
+    <meta name ="viewport" content="width=device-width, initial-scale =1">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
   </head>
   <body>
-
+    <header>
+      <section class="title">
+        <h1>A Look At Jeff King</h1>
+        <h2>Quite a site to see</h2>
+      </section>
+      <nav class="nav">
+        <ul>
+          <li class="tab" data-content="websites"><a href="#">Home</li>
+          <li class="tab" data-content="about"><a href="#">About</li>
+          <li><a href="https://www.facebook.com/kingjeffey" target="_blank">FaceBook</a></li>
+          <li><a href="http://github.com/shnowman" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="websites" class="tab-content">
+      </section>
+      <section id="about" class="tab-content">
+        <h1>Impressed? I hope so!</h1>
+        <section>
+          <h1>More on me:</h1>
+          <ul>
+            <li>Coding</li>
+            <li>Informal Education</li>
+            <li>Hanging with my family</li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer>
+      &copy; 2016 Jeff King | Blog | Created under the guidence of CodeFellows!
+    </footer>
+    <script type="text/javascript"src="scripts/DOM.js"></script>
+    <script type="text/javascript" src="scripts/template.js"></script>
+    <script type="text/javascript" src="scripts/myWebPages.js"></script>
   </body>
 </html>
